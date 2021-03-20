@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HTNetWorkTool_Example' do
+  pod 'HTNetWorkTool', :path => '../'
+
+  target 'HTNetWorkTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
