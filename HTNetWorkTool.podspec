@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/whtgogoing@163.com/HTNetWorkTool'
+  s.homepage         = 'https://github.com/HTOne/HTNetWorkTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'whtgogoing@163.com' => 'whtgogoing@163.com' }
-  s.source           = { :git => 'https://github.com/whtgogoing@163.com/HTNetWorkTool.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/HTOne/HTNetWorkTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -38,5 +38,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Moya', '~> 14.0'
+  s.dependency 'SwiftyJSON'
+  s.dependency 'ObjectMapper'
 end

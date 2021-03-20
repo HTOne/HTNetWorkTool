@@ -1,0 +1,6 @@
+framework module HTNetWorkTool {
+  umbrella header "HTNetWorkTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

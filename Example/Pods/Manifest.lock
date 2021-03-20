@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (4.9.1)
+  - HTNetWorkTool (0.1.0):
+    - Moya
+    - ObjectMapper
+    - SwiftyJSON
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - ObjectMapper (4.2.0)
+  - Result (4.1.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - HTNetWorkTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - ObjectMapper
+    - Result
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  HTNetWorkTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  HTNetWorkTool: 28c3bb92eb1125f6ef762b64d1af581b728182ce
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 9758107a5349e41b3f2f55619bcb70a5c5a27aa7
+
+COCOAPODS: 1.8.1

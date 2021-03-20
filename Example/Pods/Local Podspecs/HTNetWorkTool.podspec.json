@@ -1,0 +1,33 @@
+{
+  "name": "HTNetWorkTool",
+  "version": "0.1.0",
+  "summary": "A short description of HTNetWorkTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/HTOne/HTNetWorkTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "whtgogoing@163.com": "whtgogoing@163.com"
+  },
+  "source": {
+    "git": "https://github.com/HTOne/HTNetWorkTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HTNetWorkTool/Classes/**/*",
+  "dependencies": {
+    "Moya": [
+      "~> 14.0"
+    ],
+    "SwiftyJSON": [
+
+    ],
+    "ObjectMapper": [
+
+    ]
+  }
+}
