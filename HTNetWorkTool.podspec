@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Moya', '~> 14.0'
+  s.dependency 'Moya'
   s.dependency 'SwiftyJSON'
   s.dependency 'ObjectMapper'
 end
